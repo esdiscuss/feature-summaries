@@ -99,6 +99,8 @@ function all(fn, ...args) {
 all(console.log, 1, 2, 3, 4);
 ```
 
+[more...](http://wiki.ecmascript.org/doku.php?id=harmony:rest_parameters)
+
 ### Spread Parameters
 
 Symetric to Rest Parameters
@@ -107,6 +109,8 @@ Symetric to Rest Parameters
 var list = [1, 2, 3, 4];
 all(console.log, ...list);
 ```
+
+[more...](http://wiki.ecmascript.org/doku.php?id=harmony:spread)
 
 ### Proper Tail Calls
 
